@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import { Shield, Database, Bell, Palette } from 'lucide-react'
 
 export default function ConfiguracionPage() {

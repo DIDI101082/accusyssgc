@@ -3,6 +3,8 @@ import { redirect } from 'next/navigation'
 import { AppLayout } from '@/components/layout/app-layout'
 import type { Profile } from '@/lib/types'
 
+export const dynamic = 'force-dynamic'
+
 export default async function AuthenticatedLayout({
   children,
 }: {
