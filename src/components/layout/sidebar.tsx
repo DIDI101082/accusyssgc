@@ -12,6 +12,7 @@ import {
   Shield,
   ChevronLeft,
   ChevronRight,
+  Bot,
 } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -26,6 +27,7 @@ const navigation = [
   { name: 'Documentos', href: '/documentos', icon: FileText },
   { name: 'Aprobaciones', href: '/aprobaciones', icon: ClipboardCheck },
   { name: 'Categorías', href: '/categorias', icon: FolderOpen },
+  { name: 'Asistente IA', href: '/asistente', icon: Bot },
 ]
 
 const adminNav = [
